@@ -7,8 +7,8 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = 'Amazon SDE Portfolio',
-  description = 'Portfolio website for an Amazon Software Development Engineer showcasing AWS, distributed systems, and DSA expertise',
+  title = 'Amazon SDE Portfolio - Alex Johnson',
+  description = 'Software Development Engineer specializing in AWS cloud architecture, distributed systems, and scalable backend solutions. Passionate about solving complex problems at scale.',
   image = '/og-image.jpg',
 }: SEOProps) {
   return (
@@ -35,12 +35,12 @@ export default function SEO({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "[Your Name]",
+          "name": "Alex Johnson",
           "url": "https://amazon-sde-portfolio.vercel.app",
           "sameAs": [
-            "https://linkedin.com/in/[your-linkedin]",
-            "https://github.com/[your-github]",
-            "https://leetcode.com/[your-leetcode]"
+            "https://linkedin.com/in/alexjohnson-sde",
+            "https://github.com/alexjohnson-sde",
+            "https://leetcode.com/alexjohnson_sde"
           ],
           "jobTitle": "Software Development Engineer",
           "worksFor": {
@@ -54,7 +54,9 @@ export default function SEO({
             "Data Structures and Algorithms",
             "Java",
             "Python",
-            "System Design"
+            "System Design",
+            "Microservices",
+            "Cloud Architecture"
           ]
         }, null, 2)}
       </script>
