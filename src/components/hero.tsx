@@ -23,9 +23,14 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex-1 max-w-[300px]">
-        {/* Placeholder for headshot - in production, replace with actual image */}
-        <div className="aspect-square bg-muted/50 rounded-xl flex items-center justify-center">
-          <span className="text-muted-foreground text-3xl">👤</span>
+        <div className="relative aspect-square">
+          <img 
+            src="/images/headshot.jpg" 
+            alt="Professional headshot" 
+            className="object-cover w-full h-full rounded-xl shadow-lg"
+          />
+          {/* Optional: Add a subtle overlay for better text contrast if needed */}
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/20 transparent pointer-events-none"></div>
         </div>
       </div>
       <div className="absolute top-4 right-4">
