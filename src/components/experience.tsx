@@ -20,7 +20,7 @@ export default function Experience() {
                 </p>
               </div>
               <p className="text-muted-foreground">{exp.location}</p>
-              
+
               <div className="mt-4 flex flex-wrap gap-2 mb-4">
                 {exp.technologies.map((tech) => (
                   <span key={tech} className="px-2 py-1 text-xs rounded bg-muted/50 text-muted-foreground">
@@ -28,10 +28,10 @@ export default function Experience() {
                   </span>
                 ))}
               </div>
-              
+
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 {exp.achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
+                  <li key={index}>{achievement}
                 ))}
               </ul>
             </div>
