@@ -5,13 +5,6 @@ const nextConfig = {
   images: {
     domains: [],
   },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': false,
-    }
-    return config
-  }
 }
 
 module.exports = nextConfig
