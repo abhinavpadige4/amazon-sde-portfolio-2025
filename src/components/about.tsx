@@ -12,18 +12,21 @@ export default function About() {
           Principles, particularly Customer Obsession and Dive Deep. I specialize
           in building scalable, distributed systems on AWS that handle millions
           of requests daily while maintaining high availability and performance.
+          My background combines deep technical expertise with a focus on delivering
+          measurable business impact.
         </p>
         
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-4">
             <h3 className="font-medium">Core Expertise</h3>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-              <li>AWS Cloud Architecture (EC2, S3, Lambda, DynamoDB, RDS)</li>
-              <li>Distributed Systems & Microservices</li>
+              <li>AWS Cloud Architecture (EC2, S3, Lambda, DynamoDB, RDS, SQS, SNS)</li>
+              <li>Distributed Systems & Microservices Design</li>
               <li>Data Structures & Algorithms Optimization</li>
               <li>TypeScript & Node.js Backend Development</li>
               <li>React & Next.js Frontend Development</li>
-              <li>CI/CD Pipeline Automation</li>
+              <li>CI/CD Pipeline Automation & Infrastructure as Code</li>
+              <li>Performance Optimization & Load Testing</li>
             </ul>
           </div>
           
@@ -38,7 +41,8 @@ export default function About() {
                   <span className="font-medium">Customer Obsession:</span>
                   <span className="text-muted-foreground">
                     I start with the customer and work backwards, ensuring
-                    every technical decision serves user needs.
+                    every technical decision serves user needs and drives
+                    business value.
                   </span>
                 </div>
               </div>
@@ -50,7 +54,8 @@ export default function About() {
                   <span className="font-medium">Dive Deep:</span>
                   <span className="text-muted-foreground">
                     I operate at all levels, stay connected to the details,
-                    and audit frequently to ensure quality.
+                    and audit frequently to ensure quality. I believe in
+                    understanding systems end-to-end before making changes.
                   </span>
                 </div>
               </div>
@@ -62,7 +67,33 @@ export default function About() {
                   <span className="font-medium">Ownership:</span>
                   <span className="text-muted-foreground">
                     I think long-term and don't sacrifice long-term value for
-                    short-term results.
+                    short-term results. I act on behalf of the entire company,
+                    beyond just my own team.
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="text-primary">●</span>
+                </div>
+                <div className="ml-3">
+                  <span className="font-medium">Invent and Simplify:</span>
+                  <span className="text-muted-foreground">
+                    I expect and require innovation and invention from my team
+                    and always find ways to simplify complex systems.
+                  </span>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <span className="text-primary">●</span>
+                </div>
+                <div className="ml-3">
+                  <span className="font-medium">Hire and Develop the Best:</span>
+                  <span className="text-muted-foreground">
+                    I recognize exceptional talent and willingly move them
+                    throughout the organization. I develop leaders and take
+                    seriously my role in helping others develop their careers.
                   </span>
                 </div>
               </div>
