@@ -132,7 +132,7 @@ export default function Contact() {
             <h3 className="mb-2 text-xl font-semibold">Connect With Me</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/alexjohnson-sde"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"
@@ -140,7 +140,7 @@ export default function Contact() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/alexjohnson-sde"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"
@@ -148,7 +148,7 @@ export default function Contact() {
                 LinkedIn
               </a>
               <a
-                href="https://leetcode.com/yourusername"
+                href="https://leetcode.com/alexjohnson_sde"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"
