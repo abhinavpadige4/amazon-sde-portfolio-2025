@@ -22,9 +22,7 @@
       {
         "name": "next"
       }
-    ],
-    "mapRoot": "/",
-    "rootDir": "/"
+    ]
   },
   "include": [
     "next-env.d.ts",
