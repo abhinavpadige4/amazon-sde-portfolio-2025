@@ -38,33 +38,4 @@ amazon-sde-portfolio-2025/
 │   │   └── ui/
 │   │       ├── button.tsx
 │   │       ├── dark-mode-toggle.tsx
-│   │       └── ...
-│   ├── styles/
-│   │   └── globals.css
-│   ├── data/
-│   ├── lib/
-│   └── ...
-├── public/
-│   ├── images/
-│   └── resume.pdf
-├── package.json
-├── next.config.js
-├── postcss.config.cjs
-├── tailwind.config.cjs
-└── tsconfig.json
-```
-
-## 🔧 Setup
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Build for production: `npm run build`
-
-## 🌐 Deployment
-
-This portfolio is deployed on Vercel and automatically updates on pushes to the main branch.
-
-## 📄 License
-
-MIT License - feel free to use this portfolio as a template for your own!
+│   │       └── ...\n├── styles/\n│   │   └── globals.css\n│   ├── data/\n│   ├── lib/\n│   └── ...\n├── public/\n│   ├── images/\n│   └── resume.pdf\n├── package.json\n├── next.config.js\n├── postcss.config.cjs\n├── tailwind.config.cjs\n└── tsconfig.json\n```\n\n## 🔧 Setup\n\n1. Clone the repository\n2. Install dependencies: `npm install`\n3. Run development server: `npm run dev`\n4. Build for production: `npm run build`\n\n## 🌐 Deployment\n\nThis portfolio is deployed on Vercel and automatically updates on pushes to the main branch.\n\n## 📄 License\n\nMIT License - feel free to use this portfolio as a template for your own!\n\n*Last updated: September 16, 2026*
