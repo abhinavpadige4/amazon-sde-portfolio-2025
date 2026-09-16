@@ -1,4 +1,4 @@
-import { DarkModeToggle } from "./components/ui/dark-mode-toggle";
+import { DarkModeToggle } from '../src/components/ui/dark-mode-toggle';
 import Link from "next/link";
 
 export default function Hero() {
