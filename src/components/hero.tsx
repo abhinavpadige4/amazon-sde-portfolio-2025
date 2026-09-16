@@ -6,12 +6,13 @@ export default function Hero() {
     <section className="flex min-h-[600px] w-full items-center justify-between gap-8 px-6 py-12">
       <div className="flex-1 space-y-6">
         <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">
-          Amazon SDE | Building Scalable Systems on AWS
+          Alex Johnson | Amazon SDE | Building Scalable Systems on AWS
         </h1>
         <p className="text-lg text-muted-foreground">
           Software Development Engineer with expertise in distributed systems,
           AWS cloud architecture, and data structures & algorithms. Passionate
-          about solving complex problems at scale.
+          about solving complex problems at scale and delivering customer-obsessed
+          solutions.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -26,7 +27,7 @@ export default function Hero() {
         <div className="relative aspect-square">
           <img 
             src="/images/headshot.jpg" 
-            alt="Professional headshot" 
+            alt="Professional headshot of Alex Johnson" 
             className="object-cover w-full h-full rounded-xl shadow-lg"
           />
           {/* Optional: Add a subtle overlay for better text contrast if needed */}
