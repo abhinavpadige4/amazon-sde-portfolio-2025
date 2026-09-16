@@ -15,11 +15,11 @@ export default function Projects() {
         <h2 className="mb-6 text-2xl font-bold tracking-tight">
           Projects & Case Studies
         </h2>
-        
+
         {selectedProject && (
           <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
         )}
-        
+
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
           {projectsData.map((project) => (
             <ProjectCard
