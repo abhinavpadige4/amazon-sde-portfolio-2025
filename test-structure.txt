@@ -1,0 +1,15 @@
+Root directory contents:
+- package.json: YES
+- app/: YES
+- app/page.tsx: YES
+- src/: YES
+- src/components/: YES
+- src/components/hero.tsx: YES
+- src/components/about.tsx: YES
+- src/components/skills.tsx: YES
+- src/components/projects.tsx: YES
+- src/components/experience.tsx: YES
+- src/components/contact.tsx: YES
+- src/components/seo.tsx: YES
+
+From app/page.tsx, relative path to hero.tsx should be: ../src/components/hero.tsx
