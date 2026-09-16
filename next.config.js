@@ -3,7 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    images: {
     domains: [],
   },
   // Add explicit output configuration for Vercel
