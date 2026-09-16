@@ -15,6 +15,8 @@ export default function Contact() {
     const data = Object.fromEntries(formData);
 
     try {
+      // TODO: Replace 'your-form-id' with your actual Formspree form ID
+      // Get this from https://formspree.io/ after creating a form
       const response = await fetch(
         "https://formspree.io/f/your-form-id", // Replace with actual Formspree ID
         {
@@ -53,6 +55,17 @@ export default function Contact() {
           through my social links.
         </p>
         
+        {/* Formspree Setup Instructions */}
+        <div className="mb-6 p-4 bg-muted/50 rounded-lg">
+          <h3 className="text-sm font-medium text-muted-foreground">Formspree Setup:</h3>
+          <p className="text-xs text-muted-foreground">
+            1. Go to <a href="https://formspree.io/" className="underline">formspree.io</a>
+            2. Create a new form and get your Form ID
+            3. Replace 'your-form-id' in the fetch URL above with your actual Form ID
+            4. The form will then send emails to your verified email address
+          </p>
+        </div>
+
         <div className="grid gap-8 md:grid-cols-2">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2">
