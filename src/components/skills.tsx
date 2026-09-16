@@ -25,7 +25,7 @@ export default function Skills() {
               ))}
             </div>
           </div>
-          
+
           {/* Distributed Systems Column */}
           <div className="space-y-4">
             <h3 className="mb-2 text-xl font-semibold">Distributed Systems</h3>
@@ -43,7 +43,7 @@ export default function Skills() {
               ))}
             </div>
           </div>
-          
+
           {/* DSA Column */}
           <div className="space-y-4">
             <h3 className="mb-2 text-xl font-semibold">Data Structures & Algorithms</h3>
